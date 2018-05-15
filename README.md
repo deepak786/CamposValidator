@@ -68,7 +68,7 @@ public void CEPError(String error) {
     System.out.println(error);
 }
 ```
-If the response is successful, then `CEPModel` class has the details replated to CEP. For each filed, this class has getters to get the value. All the details are fetched from the url [https://viacep.com.br/](https://viacep.com.br/).
+If the response is successful, then `CEPModel` class has the details replated to CEP. For each field, this class has getters to get the value. All the details are fetched from the url [https://viacep.com.br/](https://viacep.com.br/).
 
 **CEPModel**
 ```
