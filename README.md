@@ -10,6 +10,7 @@ Android library to validate the fields such as `CPF`, `CNPJ`, `CEP`
 
 ## Views
 Although you can use default `EditText` but you can also use the views from the library which already has format related to each field. You don't have to specify any `input type` also.
+
 **CPF**
 ```
 <com.campos.validator.library.views.CPF
@@ -31,12 +32,14 @@ Although you can use default `EditText` but you can also use the views from the 
 
 ## Validation
 **CPF & CNPJ**
+
 Validate CPF and CNPJ with just following line. Each CPF and CNPJ is validated using predefined Algorithm. 
 ```
 Validator.isValidCPF(CPF);
 Validator.isValidCNPJ(CNPJ);
 ```
 **CEP**
+
 To check if CEP has valid format or not, use the following line.
 ```
 Validator.isValidFormatCEP(CEP);
